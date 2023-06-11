@@ -10,6 +10,7 @@ class Book {
     this.displayBooks();
   }
 
+  
   updateLocalStorageData() {
     // This method will update data in localStorage
     localStorage.setItem(this.bookCollectionName, JSON.stringify(this.bookCollection));
