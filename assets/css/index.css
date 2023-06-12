@@ -1,0 +1,165 @@
+body {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.book-list-row {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.book-list-row h1 {
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+
+.booklist-table button {
+  border: 3px solid black;
+  border-radius: 0px;
+}
+
+.horizon-sign {
+  width: 100px;
+  height: 3px;
+  background: black;
+  margin: -10px auto 35px;
+  border-radius: 50%;
+}
+
+.add-book-row {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: none;
+}
+
+.table-book-list {
+  border: 3px solid black;
+}
+
+.table-book-list td {
+  padding: 10px 20px;
+  border: none;
+}
+
+.booklist-table tr td:last-child {
+  text-align: right;
+}
+
+.add-book-row h2,
+.contact h2 {
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 34px;
+}
+
+#book-form {
+  width: 350px;
+  margin: auto;
+}
+
+#book-form input {
+  border: 3px solid black;
+  margin-bottom: 10px;
+  width: 350px;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.add-button {
+  float: right;
+  width: 100px;
+  border: 3px solid black;
+  border-radius: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border: solid 2px black;
+  border-radius: 8px;
+  padding: 12px 12px;
+  margin: 12px 12px;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+}
+
+.nav-list li {
+  padding: 0px 20px;
+  border-right: 2px solid black;
+}
+
+.contact ul li {
+  list-style: disc;
+}
+
+.nav-list li:last-child {
+  border-right: 0px;
+}
+
+.awsome-book {
+  font-size: 20px;
+  color: black;
+}
+
+.nav-item {
+  font-size: 20px;
+  color: black;
+}
+
+.nav-active {
+  color: green;
+}
+
+.nav-item:hover {
+  color: rgb(102, 102, 234);
+}
+
+.time {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.contact {
+  display: none;
+  margin-top: 20px;
+}
+
+.content-active {
+  display: block;
+}
+
+.content-inactive {
+  display: none;
+}
+
+.footer {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  height: 50px;
+  text-align: center;
+  line-height: 42px;
+  right: 10px;
+  border-radius: 10px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+}
